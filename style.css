@@ -1,28 +1,28 @@
 :root{
-    --cor-primairia: #FF89DC;
-    --cor-secundaria: #0000;
-    --cor-titulo: #670064;
-    --cor-fundo: #ffff;
-    --cor-texto: #0000;
-    --cor-contraste: #670064;
-    --cor-botao: #0000;
+    --cor-primairia: #ff66c4;
+    --cor-secundaria: #ffb3e6;
+    --cor-titulo: #500040;
+    --cor-fundo: #fff0f8;
+    --cor-texto: #2b0023;
+    --cor-contraste: #500040;
+    --cor-botao: #ff1493;
     --fonte-texto: 'Segoe UI', sans-serif;
-    --sombra-hover: #ff89dc93;
+    --sombra-hover: rgba(255, 102, 196, 0.4);
 }
 
 .tema-escuro{
-    --cor-primairia: #ad00a5;
-    --cor-secundaria: #ffff;
-    --cor-titulo: #670064;
-    --cor-fundo: #2e2e2e;
-    --cor-texto: #ffff;
-    --cor-contraste: #000000;
-    --cor-botao: #da4be7;
-    --sombra-hover: #ff00f271;
+    --cor-primairia: #ff33b5;
+    --cor-secundaria: #ff99e6;
+    --cor-titulo: #ff66c4;
+    --cor-fundo: #12030e;
+    --cor-texto: #fce8f5;
+    --cor-contraste: #ffffff;
+    --cor-botao: #ff007f;
+    --sombra-hover: rgba(255, 51, 181, 0.6);
 }
 
 .tema-escuro p{
-    color: var(--cor-secundaria);
+    color: var(--cor-texto);
 }
 
 
@@ -39,7 +39,7 @@ header {
     padding: 16px;
     border-radius: 30px;
     backdrop-filter: blur(40px);
-    border: 1px solid rgba(32, 15, 15, 0.2);
+    border: 1px solid rgba(255, 102, 196, 0.3);
 
 }
 
@@ -58,7 +58,7 @@ h1 {
     font-weight: 800;
     letter-spacing: 2px;
     color: transparent;
-    -webkit-text-stroke: 2px #670064; 
+    -webkit-text-stroke: 2px var(--cor-titulo); 
     cursor: pointer;
     white-space: nowrap;
     user-select: none;
@@ -73,8 +73,8 @@ h1::before {
     width: 0%;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-text-stroke: 2px #670064; 
-    color: #670064;                 
+    -webkit-text-stroke: 2px var(--cor-titulo); 
+    color: var(--cor-titulo);                 
     transition: width 0.5s ease;
 }
 
@@ -83,12 +83,12 @@ h1:hover::before {
 }
 
 .tema-escuro h1 {
-    -webkit-text-stroke: 2px #670064; 
+    -webkit-text-stroke: 2px var(--cor-primairia); 
 }
 
 .tema-escuro h1::before {
-    -webkit-text-stroke: 2px #670064; 
-    color: #670064;                   
+    -webkit-text-stroke: 2px var(--cor-primairia); 
+    color: var(--cor-primairia);                   
 }
 
 main {
@@ -155,7 +155,7 @@ article:hover img.imagem-rimel {
 .imagem-logo {
     width: 80px;
     height: 80px;
-    filter: drop-shadow(0px 0px 12px grey);
+    filter: drop-shadow(0px 0px 12px var(--cor-primairia));
     border-radius: 55%;
     object-fit: cover;
 }
@@ -163,28 +163,28 @@ article:hover img.imagem-rimel {
 .imagem-base{
     width: 55px;
     height: 55px;
-    filter: drop-shadow(0px 0px 12px grey);
+    filter: drop-shadow(0px 0px 12px var(--cor-primairia));
     margin-right: 15px;
 }
 
 .imagem-batom{
     width: 55px;
     height: 55px;
-    filter: drop-shadow(0px 0px 12px grey);
+    filter: drop-shadow(0px 0px 12px var(--cor-primairia));
     margin-right: 15px;
 }
 
 .imagem-blush{
     width: 50px;
     height: 50px;
-    filter: drop-shadow(0px 0px 12px grey);
+    filter: drop-shadow(0px 0px 12px var(--cor-primairia));
     margin-right: 15px;
 }
 
 .imagem-rimel{
     width: 50px;
     height: 50px;
-    filter: drop-shadow(0px 0px 12px grey);
+    filter: drop-shadow(0px 0px 12px var(--cor-primairia));
     margin-right: 15px;
 }
 
@@ -200,7 +200,7 @@ article:hover img.imagem-rimel {
     width: 50px;
     height: 25px;
     padding: 10px;
-    border: 2px solid #183C63;
+    border: 2px solid var(--cor-primairia);
     border-radius: 5px;
     margin: 0;
     transition-duration: 0.4s;
@@ -213,16 +213,16 @@ article:hover img.imagem-rimel {
 }
 
 .button-1:hover {
-    background-color: #183c63; 
-    color: #ffff;     
-    box-shadow: 0 8px 16px 0 #670064;
+    background-color: var(--cor-primairia); 
+    color: #ffffff;     
+    box-shadow: 0 8px 16px 0 var(--sombra-hover);
 }
 
 .button-2 {
     width: 50px;
     height: 25px;
     padding: 10px;
-    border: 2px solid #670064;
+    border: 2px solid var(--cor-botao);
     border-radius: 5px;
     margin: 0;
     transition-duration: 0.4s;
@@ -235,9 +235,9 @@ article:hover img.imagem-rimel {
 }
 
 .button-2:hover{
-    background-color: #670064; 
-    color: #ffff;     
-    box-shadow: 0 8px 16px 0 #670064;
+    background-color: var(--cor-botao); 
+    color: #ffffff;     
+    box-shadow: 0 8px 16px 0 var(--sombra-hover);
 }
 
 .btn-tema-escuro{
