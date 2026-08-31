@@ -14,7 +14,7 @@
     --cor-primairia: #ff33b5;
     --cor-secundaria: #ff99e6;
     --cor-titulo: #ff66c4;
-    --cor-fundo: #12030e;
+    --cor-fundo: #0000;
     --cor-texto: #fce8f5;
     --cor-contraste: #ffffff;
     --cor-botao: #ff007f;
@@ -58,7 +58,7 @@ h1 {
     font-weight: 800;
     letter-spacing: 2px;
     color: transparent;
-    -webkit-text-stroke: 2px var(--cor-titulo); 
+    -webkit-text-stroke: 2px #500040; 
     cursor: pointer;
     white-space: nowrap;
     user-select: none;
@@ -73,8 +73,8 @@ h1::before {
     width: 0%;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-text-stroke: 2px var(--cor-titulo); 
-    color: var(--cor-titulo);                 
+    -webkit-text-stroke: 2px #500040; 
+    color: #500040;                 
     transition: width 0.5s ease;
 }
 
@@ -83,12 +83,12 @@ h1:hover::before {
 }
 
 .tema-escuro h1 {
-    -webkit-text-stroke: 2px var(--cor-primairia); 
+    -webkit-text-stroke: 2px #ff66c4; 
 }
 
 .tema-escuro h1::before {
-    -webkit-text-stroke: 2px var(--cor-primairia); 
-    color: var(--cor-primairia);                   
+    -webkit-text-stroke: 2px #ff66c4; 
+    color: #ff66c4;                   
 }
 
 main {
