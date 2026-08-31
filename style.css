@@ -5,7 +5,7 @@
     --cor-fundo: #fff0f8;
     --cor-texto: #2b0023;
     --cor-contraste: #500040;
-    --cor-botao: #ff149141;
+    --cor-botao: #ff1493;
     --fonte-texto: 'Segoe UI', sans-serif;
     --sombra-hover: rgba(255, 102, 196, 0.4);
 }
@@ -17,8 +17,8 @@
     --cor-fundo: #0000;
     --cor-texto: #fce8f5;
     --cor-contraste: #00000088;
-    --cor-botao: #ff007f;
-    --sombra-hover: rgba(255, 51, 181, 0.6);
+    --cor-botao: #ff008086;
+    --sombra-hover: rgba(255, 51, 180, 0.199);
 }
 
 .tema-escuro p{
@@ -83,7 +83,7 @@ h1:hover::before {
 }
 
 .tema-escuro h1 {
-    -webkit-text-stroke: 2px #faf2f8; 
+    -webkit-text-stroke: 2px #ff99e6; 
 }
 
 .tema-escuro h1::before {
