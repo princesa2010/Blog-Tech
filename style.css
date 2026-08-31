@@ -1,13 +1,13 @@
 :root{
-    --cor-primairia: #183c63;
+    --cor-primairia: #FF89DC;
     --cor-secundaria: #0000;
-    --cor-titulo: #183C63;
+    --cor-titulo: #FF89DC;
     --cor-fundo: #ffff;
-    --cor-texto: #183C63;
-    --cor-contraste: #FFDD00;
+    --cor-texto: #FF89DC;
+    --cor-contraste: #0000;
     --cor-botao: #0000;
     --fonte-texto: 'Segoe UI', sans-serif;
-    --sombra-hover: rgba(14, 84, 150, 0.4);
+    --sombra-hover: #ff89dc93;
 }
 
 .tema-escuro{
