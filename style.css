@@ -14,9 +14,9 @@
     --cor-primairia: #ff33b5;
     --cor-secundaria: #ff99e6;
     --cor-titulo: #ff66c4;
-    --cor-fundo: #000000fa;
+    --cor-fundo: #0000;
     --cor-texto: #fce8f5;
-    --cor-contraste: #ffffff;
+    --cor-contraste: #0000;
     --cor-botao: #ff007f;
     --sombra-hover: rgba(255, 51, 181, 0.6);
 }
