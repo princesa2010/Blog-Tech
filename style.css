@@ -11,14 +11,14 @@
 }
 
 .tema-escuro{
-    --cor-primairia: #FFDD00;
+    --cor-primairia: #ff00f2;
     --cor-secundaria: #ffff;
-    --cor-titulo: #FFDD00;
+    --cor-titulo: #ff00f2;
     --cor-fundo: #2e2e2e;
-    --cor-texto: #FFDD00;
+    --cor-texto: #ff00f2;
     --cor-contraste: #183C63;
-    --cor-botao: #e5e74b;
-    --sombra-hover: rgba(255, 221, 0, 0.4);
+    --cor-botao: #da4be7;
+    --sombra-hover: #ff00f271;
 }
 
 .tema-escuro p{
@@ -58,7 +58,7 @@ h1 {
     font-weight: 800;
     letter-spacing: 2px;
     color: transparent;
-    -webkit-text-stroke: 2px #FFDD00; 
+    -webkit-text-stroke: 2px #670064; 
     cursor: pointer;
     white-space: nowrap;
     user-select: none;
@@ -73,8 +73,8 @@ h1::before {
     width: 0%;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-text-stroke: 2px #FFDD00; 
-    color: #FFDD00;                 
+    -webkit-text-stroke: 2px #670064; 
+    color: #670064;                 
     transition: width 0.5s ease;
 }
 
